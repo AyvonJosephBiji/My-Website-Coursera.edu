@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> Coursera.edu/Cyber Exam</title>
+    <link rel="shortcut icon" type="image/jpg" href="f1.jpg"/>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:  0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="https://ayvonjoseph.000webhostapp.com/Course%20Details/Index.html">Home</a>
+  
+ 
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+
+
+
+h2{
+  text-align: center;
+}
+
+
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 0px 0px 0px #666666;
+  -webkit-box-shadow: 3px 3px 5px #666666;
+  -moz-box-shadow: 3px 3px 5px #666666;
+  box-shadow: 3px 3px 5px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Cyber Security Exam Site</h2>
+
+
+
+<table id="t01">
+
+
+  <tr>
+    <th>#</th>
+    <th>Today's Date</th> 
+    <th>Subject Name</th>
+    <th>Topic</th>
+    <th>Exam Date</th>
+    <th>Exam Time</th>
+    <th>Exam Link</th>
+    <th>Status</th>
+
+</tr>
+
+
+
+
+
+
+<tr>
+    <td>01</td>
+    <td>13-06-2021</td>
+    <td>Web Development</td>
+    <td>JavaScript - Functions</td>
+    <td>Update soon</td>
+    <td>Update soon</td>
+    <td>
+      <a href="#" target="_blank">
+        <button class="btn">Click me</button>
+    </td>
+    <td>
+      <form>
+        <input type="checkbox" id="accept" checked active> Finish Text
+        <input type="button" id="btn" value="Submit">
+    </form>
+    
+    </td>
+  </tr>
+  
+
+
+
+
+
+
+</table>
+
+
+<script>
+  const cb = document.querySelector('#accept');
+  const btn = document.querySelector('#btn');
+  btn.onclick = () => {
+      const result = cb.value;
+      alert(result); // on
+  };
+</script>
+</body>
+</html>
+
